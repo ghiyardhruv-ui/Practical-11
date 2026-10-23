@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyStore - Online Shopping</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-50">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 py-5
+                    flex justify-between items-center flex-wrap gap-4">
+
+            <!-- Logo -->
+            <h1 class="text-3xl font-black text-purple-700">
+                MyStore<span class="text-orange-500">.</span>
+            </h1>
+
+            <!-- Navigation -->
+            <nav class="flex items-center gap-2 sm:gap-6 text-gray-700">
+
+                <a href="#"
+                   class="px-3 py-2 font-semibold text-purple-700">
+                    Home
+                </a>
+
+                <a href="#"
+                   class="px-3 py-2 hover:text-purple-700 transition">
+                    About
+                </a>
+
+                <!-- Dropdown -->
+                <div class="relative group">
+                    <button
+                        class="px-3 py-2 hover:text-purple-700 transition">
+                        Categories ▾
+                    </button>
+
+                    <div class="hidden group-hover:block
+                                group-focus-within:block
+                                absolute right-0 top-full pt-2
+                                w-48 z-20">
+
+                        <div class="bg-white rounded-xl shadow-xl
+                                    border border-gray-100 overflow-hidden">
+
+                            <a href="#" class="block px-4 py-3 hover:bg-purple-50">
+                                💻 Laptops
+                            </a>
+
+                            <a href="#" class="block px-4 py-3 hover:bg-purple-50">
+                                📱 Mobiles
+                            </a>
+
+                            <a href="#" class="block px-4 py-3 hover:bg-purple-50">
+                                👟 Shoes
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#"
+                   class="px-3 py-2 hover:text-purple-700 transition">
+                    Contact
+                </a>
+
+            </nav>
+
+            <!-- Cart -->
+            <a href="#"
+               class="bg-purple-700 text-white px-5 py-2.5
+                      rounded-full font-semibold
+                      hover:bg-purple-800 transition">
+                🛒 Cart
+            </a>
+
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="max-w-7xl mx-auto px-6 py-20">
+
+        <section class="rounded-3xl overflow-hidden
+                        bg-gradient-to-r from-purple-700
+                        via-purple-600 to-indigo-500
+                        text-white p-10 md:p-20">
+
+            <div class="max-w-2xl">
+
+                <p class="uppercase tracking-widest text-purple-200
+                          font-semibold text-sm">
+                    Your Shopping Destination
+                </p>
+
+                <h2 class="text-4xl md:text-6xl font-extrabold
+                           mt-5 leading-tight">
+                    Shop Smart.<br>
+                    Live Better.
+                </h2>
+
+                <p class="mt-5 text-purple-100 text-lg">
+                    Discover amazing products, the latest trends
+                    and great deals—all in one place.
+                </p>
+
+                <a href="#products"
+                   class="inline-block mt-8 bg-white text-purple-700
+                          px-8 py-3 rounded-full font-bold
+                          hover:bg-purple-100 transition">
+                    Explore Products →
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- Categories -->
+        <section id="products" class="mt-16">
+
+            <h2 class="text-3xl font-bold text-gray-900">
+                Shop by Category
+            </h2>
+
+            <p class="text-gray-500 mt-2">
+                Find something you will love.
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-8">
+
+                <!-- Laptop -->
+                <a href="#"
+                   class="bg-white p-8 rounded-2xl shadow-sm
+                          border border-gray-100 text-center
+                          hover:shadow-lg hover:-translate-y-1
+                          transition duration-300">
+
+                    <div class="text-5xl">💻</div>
+
+                    <h3 class="text-xl font-bold mt-4">
+                        Laptops
+                    </h3>
+
+                    <p class="text-gray-500 mt-2">
+                        Work and entertainment
+                    </p>
+
+                </a>
+
+                <!-- Mobile -->
+                <a href="#"
+                   class="bg-white p-8 rounded-2xl shadow-sm
+                          border border-gray-100 text-center
+                          hover:shadow-lg hover:-translate-y-1
+                          transition duration-300">
+
+                    <div class="text-5xl">📱</div>
+
+                    <h3 class="text-xl font-bold mt-4">
+                        Mobiles
+                    </h3>
+
+                    <p class="text-gray-500 mt-2">
+                        Technology in your hands
+                    </p>
+
+                </a>
+
+                <!-- Shoes -->
+                <a href="#"
+                   class="bg-white p-8 rounded-2xl shadow-sm
+                          border border-gray-100 text-center
+                          hover:shadow-lg hover:-translate-y-1
+                          transition duration-300">
+
+                    <div class="text-5xl">👟</div>
+
+                    <h3 class="text-xl font-bold mt-4">
+                        Shoes
+                    </h3>
+
+                    <p class="text-gray-500 mt-2">
+                        Step into new styles
+                    </p>
+
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 text-center py-6">
+        <p>© 2026 MyStore. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
